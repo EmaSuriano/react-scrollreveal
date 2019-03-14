@@ -1,0 +1,48 @@
+{
+  "name": "react-scrollreveal",
+  "version": "1.0.0",
+  "description": "React wrapper for the library scrollreveal",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "scripts": {
+    "build": "nwb build-react-component",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmaSuriano/react-scrollreveal.git"
+  },
+  "keywords": [
+    "react",
+    "scrollreveal",
+    "scroll",
+    "reveal"
+  ],
+  "author": "Emanuel Suriano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmaSuriano/react-scrollreveal/issues"
+  },
+  "homepage": "https://github.com/EmaSuriano/react-scrollreveal#readme",
+  "dependencies": {
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "nwb": "^0.23.0",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-scripts": "^2.1.8",
+    "scrollreveal": "^4.0.5",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333"
+  }
+}
